@@ -1,0 +1,6 @@
+pinecone
+google-generativeai
+pymupdf 
+pillow 
+duckduckgo-search 
+python-dotenv 
