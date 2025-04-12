@@ -1,0 +1,134 @@
+{
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Processing Indus Valley Report 2024-1-11.pdf..."
+        },
+        {
+            "role": "user",
+            "content": "summarize the information ",
+            "timestamp": 1744433306.2272463
+        },
+        {
+            "role": "assistant",
+            "content": "The PDF provided contains no relevant information.  However, web search results describe various AI-powered summarization tools.  These tools analyze text and identify the most important information to create concise summaries [1, 2].  Some tools allow customization of summary style depending on the intended audience and purpose, such as academic, formal, persuasive, or technical [3].\n",
+            "citations_in_answer": [
+                "[3]"
+            ],
+            "timestamp": 1744433311.3480117
+        },
+        {
+            "role": "user",
+            "content": "India's Historical GDP Growth Rate (%), FY1999 - FY2024E",
+            "timestamp": 1744439966.3311868
+        },
+        {
+            "role": "assistant",
+            "content": "The provided context does not contain India's historical GDP growth rate from FY1999 to FY2024E. While the source mentions \"India - GDP\" [1, 4] and cites the RBI and IMF [2, 5], it doesn't include any specific growth rate data. The context discusses the composition of India's GDP, focusing on consumption spends [3, 4], but not its historical growth.  No relevant information was found via web search.\n",
+            "citations_in_answer": [],
+            "timestamp": 1744439972.6777518
+        },
+        {
+            "role": "user",
+            "content": "what is the GPD per capita of India",
+            "timestamp": 1744440026.368762
+        },
+        {
+            "role": "assistant",
+            "content": "While the provided text mentions India's GDP and per capita GDP comparisons [1], the actual per capita GDP value for India is not given.  The information provided focuses on the composition of India's GDP, particularly consumption spending [3, 4].  Additional information from the RBI and IMF is referenced as a source [5] but not presented. The web search yielded no relevant results.  Therefore, the specific value for India's GDP per capita cannot be determined from the given context.\n",
+            "citations_in_answer": [
+                "[1]",
+                "[5]"
+            ],
+            "timestamp": 1744440031.3838823
+        }
+    ],
+    "pdf_hash": "bc0a96d4ca2bfddffa9bd0d88237fa3d54ffdda8fabe8c0057fb38ee3f6e7341",
+    "pdf_filename": "Indus Valley Report 2024-1-11.pdf",
+    "pdf_processed": true,
+    "chat_name": "Chat chat_174",
+    "citation_map": {
+        "[1]": {
+            "bounding_box": [
+                "126.18",
+                "113.49",
+                "622.13",
+                "123.49"
+            ],
+            "chunk_content": "Largest economies by GDP ($tn)\nIndia vs others on per capita GDP ($)",
+            "content_type": "text",
+            "document_hash": "bc0a96d4ca2bfddffa9bd0d88237fa3d54ffdda8fabe8c0057fb38ee3f6e7341",
+            "linked_items": [],
+            "page_number": 10.0,
+            "page_screenshot_path": "images\\bc0a96d4ca2bfddffa9bd0d88237fa3d54ffdda8fabe8c0057fb38ee3f6e7341\\page_10_screenshot.png",
+            "pdf_filename": "Indus Valley Report 2024-1-11.pdf",
+            "source_type": "pdf",
+            "text": "Largest economies by GDP ($tn)\nIndia vs others on per capita GDP ($)"
+        },
+        "[2]": {
+            "bounding_box": [
+                "69.3",
+                "1.34",
+                "110.36",
+                "10.94"
+            ],
+            "chunk_content": "India - GDP",
+            "content_type": "text",
+            "document_hash": "bc0a96d4ca2bfddffa9bd0d88237fa3d54ffdda8fabe8c0057fb38ee3f6e7341",
+            "linked_items": [],
+            "page_number": 11.0,
+            "page_screenshot_path": "images\\bc0a96d4ca2bfddffa9bd0d88237fa3d54ffdda8fabe8c0057fb38ee3f6e7341\\page_11_screenshot.png",
+            "pdf_filename": "Indus Valley Report 2024-1-11.pdf",
+            "source_type": "pdf",
+            "text": "India - GDP"
+        },
+        "[3]": {
+            "chunk_content": "| 0                                                                                                                                                         | 1   |\n|:----------------------------------------------------------------------------------------------------------------------------------------------------------|:----|\n| India - GDP                                                                                                                                               |     |\n| India\u2019s GDP is led by consumption spends, unlike China\u2019s                                                                                                  |     |\n| India\u2019s economy has long been characterized by high Private Consumption, i.e., spends by households, private sector and government, as a high share of    |     |\n| the GDP. The key reason for this is Gross Fixed Capital Formation (GFCF, essentially creation of productive assets such as machinery, infrastructure) has |     |\n| a far lower share than it should; primarily because of underinvestment. Let us unpack why India underinvests in GFCF.                                     |     |\n| Source: RBI, IMF                                                                                                                                          |     |\n|                                                                                                                                                           | 11  |",
+            "content_type": "table",
+            "document_hash": "bc0a96d4ca2bfddffa9bd0d88237fa3d54ffdda8fabe8c0057fb38ee3f6e7341",
+            "linked_items": [],
+            "page_number": 11.0,
+            "page_screenshot_path": "images\\bc0a96d4ca2bfddffa9bd0d88237fa3d54ffdda8fabe8c0057fb38ee3f6e7341\\page_11_screenshot.png",
+            "pdf_filename": "Indus Valley Report 2024-1-11.pdf",
+            "source_type": "pdf",
+            "table_markdown": "| 0                                                                                                                                                         | 1   |\n|:----------------------------------------------------------------------------------------------------------------------------------------------------------|:----|\n| India - GDP                                                                                                                                               |     |\n| India\u2019s GDP is led by consumption spends, unlike China\u2019s                                                                                                  |     |\n| India\u2019s economy has long been characterized by high Private Consumption, i.e., spends by households, private sector and government, as a high share of    |     |\n| the GDP. The key reason for this is Gross Fixed Capital Formation (GFCF, essentially creation of productive assets such as machinery, infrastructure) has |     |\n| a far lower share than it should; primarily because of underinvestment. Let us unpack why India underinvests in GFCF.                                     |     |\n| Source: RBI, IMF                                                                                                                                          |     |\n|                                                                                                                                                           | 11  |"
+        },
+        "[4]": {
+            "bounding_box": [
+                "36.77",
+                "25.02",
+                "612.88",
+                "46.02"
+            ],
+            "chunk_content": "India\u2019s GDP is led by consumption spends, unlike China\u2019s",
+            "content_type": "text",
+            "document_hash": "bc0a96d4ca2bfddffa9bd0d88237fa3d54ffdda8fabe8c0057fb38ee3f6e7341",
+            "linked_items": [],
+            "page_number": 11.0,
+            "page_screenshot_path": "images\\bc0a96d4ca2bfddffa9bd0d88237fa3d54ffdda8fabe8c0057fb38ee3f6e7341\\page_11_screenshot.png",
+            "pdf_filename": "Indus Valley Report 2024-1-11.pdf",
+            "source_type": "pdf",
+            "text": "India\u2019s GDP is led by consumption spends, unlike China\u2019s"
+        },
+        "[5]": {
+            "bounding_box": [
+                "6.75",
+                "383.56",
+                "64.3",
+                "393.16"
+            ],
+            "chunk_content": "Source: RBI, IMF",
+            "content_type": "text",
+            "document_hash": "bc0a96d4ca2bfddffa9bd0d88237fa3d54ffdda8fabe8c0057fb38ee3f6e7341",
+            "linked_items": [],
+            "page_number": 11.0,
+            "page_screenshot_path": "images\\bc0a96d4ca2bfddffa9bd0d88237fa3d54ffdda8fabe8c0057fb38ee3f6e7341\\page_11_screenshot.png",
+            "pdf_filename": "Indus Valley Report 2024-1-11.pdf",
+            "source_type": "pdf",
+            "text": "Source: RBI, IMF"
+        }
+    },
+    "last_answer": "While the provided text mentions India's GDP and per capita GDP comparisons [1], the actual per capita GDP value for India is not given.  The information provided focuses on the composition of India's GDP, particularly consumption spending [3, 4].  Additional information from the RBI and IMF is referenced as a source [5] but not presented. The web search yielded no relevant results.  Therefore, the specific value for India's GDP per capita cannot be determined from the given context.\n",
+    "last_query": "what is the GPD per capita of India",
+    "pdf_path_in_session": "uploads\\96b796f98ff1df4a3f675860d5be164c067a9d77_Indus Valley Report 2024-1-11.pdf"
+}

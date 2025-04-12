@@ -1,0 +1,16 @@
+{
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Processing SDP.pdf..."
+        }
+    ],
+    "pdf_hash": "127fcfedba8d05b597b906a35b24ccfb72c83dbce1018a742ca0021e3e6cd9bd",
+    "pdf_filename": "SDP.pdf",
+    "pdf_processed": true,
+    "chat_name": "Chat chat_174",
+    "citation_map": {},
+    "last_answer": null,
+    "last_query": null,
+    "pdf_path_in_session": "uploads\\c7d75d19c22e83228b3292b31f71b48df64667c9_SDP.pdf"
+}

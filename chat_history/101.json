@@ -1,0 +1,15 @@
+{
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Hi! Upload a PDF and ask me questions about it."
+        }
+    ],
+    "pdf_hash": null,
+    "pdf_filename": null,
+    "pdf_processed": false,
+    "chat_name": "Chat 101",
+    "citation_map": {},
+    "last_answer": null,
+    "last_query": null
+}

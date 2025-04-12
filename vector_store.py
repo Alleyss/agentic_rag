@@ -10,7 +10,7 @@ import google.generativeai as genai
 # --- Embedding Model (Google) ---
 embedding_model_name = 'models/embedding-001'
 embedding_dim = 768
-MAX_CHUNK_LENGTH_CHARS = 4000
+MAX_CHUNK_LENGTH_CHARS = 5000
 CHUNK_OVERLAP = 100
 # --- Text Chunking Helper ---
 def chunk_text(text: str, max_length: int = MAX_CHUNK_LENGTH_CHARS, overlap: int = CHUNK_OVERLAP) -> list[str]:
@@ -82,7 +82,7 @@ def init_pinecone(api_key: str, index_name: str, dimension: int, region: str, cl
                 spec = ServerlessSpec(cloud=cloud, region=region)
                 print(f"Attempting creation: spec={spec}, dim={dimension}, metric={metric}")
                 pc.create_index(name=index_name, dimension=dimension, metric=metric, spec=spec)
-                wait_time, max_wait, current_wait = 10, 300, 0 # Increased wait time slightly
+                wait_time, max_wait, current_wait = 10, 30, 0 # Increased wait time slightly
                 print(f"Waiting up to {max_wait}s for index readiness...")
                 while current_wait < max_wait:
                     try:
@@ -291,4 +291,3 @@ def query_pinecone(index, query_text, top_k=5, doc_hash=None):
         # print(f"Query successful. Matches found: {len(matches)}") # Less verbose
         return matches
     except Exception as e: print(f"Error querying Pinecone: {e}"); st.error(f"Pinecone query error: {e}"); return []
-# -----------------------------------------

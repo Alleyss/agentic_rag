@@ -8,7 +8,6 @@ def perform_web_search(query, max_results=3):
     try:
         print(f"Performing web search for: {query}")
         with DDGS() as ddgs:
-            # Using ddgs.text for general web search results
             search_results = ddgs.text(query, max_results=max_results)
             if not search_results:
                  print("No web results found.")
@@ -17,14 +16,12 @@ def perform_web_search(query, max_results=3):
             for i, result in enumerate(search_results):
                 print(f"  Web Result {i+1}: {result.get('title')} - {result.get('href')}")
                 results_list.append({
-                    'source_type': 'web',
+                    'source_type': 'web', # Consistent key
                     'title': result.get('title', 'N/A'),
                     'url': result.get('href', 'N/A'),
-                    'snippet': result.get('body', 'N/A'), # 'body' usually contains the snippet
-                    'content_type': 'web_result' # Consistent metadata key
+                    'snippet': result.get('body', 'N/A'), # 'body' is the snippet
+                    'content_type': 'web_result' # Consistent key for type within source
                 })
-                # Optional: Add scraping here if needed, but adds complexity & potential blocks
-                # Be mindful of website terms of service if scraping.
 
         print(f"Web search complete. Found {len(results_list)} results.")
         return results_list
