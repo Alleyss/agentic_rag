@@ -21,7 +21,7 @@ def analyze_image_with_gemini(image_path, api_key):
     #   if 'generateContent' in m.supported_generation_methods:
     #     print(m.name)
 
-    model = genai.GenerativeModel('gemini-pro-vision')
+    model = genai.GenerativeModel('gemini-2.0-flash')
     print(f"Analyzing image: {image_path}")
     if not os.path.exists(image_path):
          print(f"Error: Image path does not exist: {image_path}")
